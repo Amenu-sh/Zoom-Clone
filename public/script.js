@@ -9,7 +9,7 @@ const peers = {};
 
 const videoGrid = document.getElementById("video-grid");
 const myVideo = document.createElement("video");
-// myVideo.muted = true;
+myVideo.muted = true;
 let myVideoStream;
 navigator.mediaDevices
   .getUserMedia({
